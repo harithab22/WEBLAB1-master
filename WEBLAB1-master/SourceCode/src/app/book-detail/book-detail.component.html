@@ -1,0 +1,23 @@
+<mat-card class="example-card">
+  <mat-card-content>
+    <dl>
+      <dt>First Name:</dt>
+      <dd>{{book[0].fName}}</dd>
+      <dt>Last Name:</dt>
+      <dd>{{book[0].lName}}</dd>
+      <dt>UserName:</dt>
+      <dd>{{book[0].uName}}</dd>
+      <dt>Mobile Phone:</dt>
+      <dd>{{book[0].mobilePhone}}</dd>
+      <dt>class1:</dt>
+      <dd>{{book[0].class1}}</dd>
+      <dt>class2:</dt>
+      <dd>{{book[0].class2}}</dd>
+      <dt>class3:</dt>
+      <dd>{{book[0].class3}}</dd>
+    </dl>
+  </mat-card-content>
+  <mat-card-actions>
+    <a mat-raised-button color="primary" [routerLink]="['/book-edit', book[0].uName]"><mat-icon>edit</mat-icon></a>
+  </mat-card-actions>
+</mat-card>

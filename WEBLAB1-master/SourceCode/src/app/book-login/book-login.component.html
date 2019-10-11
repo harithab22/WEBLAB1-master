@@ -1,0 +1,32 @@
+<div class="bg-class">
+  <!--<img class="img-responsive" src="tst1.jpg" width=100%>-->
+    <div class="col-md-4 col-md-offset-4">
+      <div class="box-content profile">
+        <h3 class="widget-title">Login Page</h3>
+        <form [formGroup]="bookForm" class="contact-form simple-form" (ngSubmit)="onFormSubmit(bookForm.value)">
+          <fieldset>
+            <p><input formControlName="myusername" type="text" style="width: 100%; left:45%; position: relative" id="myusername"  placeholder="User Name" required ></p>
+            <br>
+            <input formControlName="mypassword" type="password" style="width: 100%; left:45%; position: relative" id="mypassword" placeholder="Password" required>
+            <br>
+            <br>
+            <input type="submit" class="button" style="padding:9px 18px; left: 68%;position: relative"
+                   value="Login"
+                   >
+
+            <a href="" ng-click="getPassword()"><u style="position: relative;left:66%;font-size: 10px">forgot password?</u></a>
+          </fieldset>
+        </form>
+        <input type="text"  style="width: 100% ;border: 0px; background-color: #F5F5F5; color: red" ng-model="finalErr">
+        <div class="form-group">
+          <div class="col-md-12 control">
+            <div class="no-acc">
+              Don't have an account!
+              <a href="books"> Sign Up Here </a>
+            </div>
+          </div>
+        </div>
+        <br>
+      </div>
+    </div>
+</div>

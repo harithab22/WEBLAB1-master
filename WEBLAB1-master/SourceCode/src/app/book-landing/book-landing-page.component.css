@@ -1,0 +1,147 @@
+.table-container {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.table-wrapper {
+    width: 100%;
+    height: 100%;
+}
+
+.left-container {
+    width: 15%
+}
+
+.right-container {
+    width: 75%
+}
+
+.table-top-row {
+    height: 10%;
+    position: relative;
+}
+
+.table-bottom-row {
+    height: 90%;
+    position: relative;
+}
+
+.top-left-content {
+    background: #32DFF2;
+    text-align: center;
+    color: white;
+}
+
+.bottom-left-content {
+    background: #566272;
+}
+
+.bottom-right-content {
+    background: #EFF3F6;
+    vertical-align: top;
+}
+
+.top-right-content {
+    background: #FFFFFF;
+}
+
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 70%;
+    background-color: #566272;
+    position: initial;
+    height: 35%;
+    overflow: auto;
+    color: white;
+    margin-left: 25%;
+  }
+
+  .sidebar a {
+    display: block;
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+  }
+
+  .sidebar a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+
+  .sidebar a:hover:not(.active) {
+    background-color: #4D5667;
+    color: white;
+  }
+
+  div.content {
+    margin-left: 200px;
+    padding: 1px 16px;
+    height: 1000px;
+  }
+
+  @media screen and (max-width: 700px) {
+    .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .sidebar a {float: left;}
+    div.content {margin-left: 0;}
+  }
+
+  @media screen and (max-width: 400px) {
+    .sidebar a {
+      text-align: center;
+      float: none;
+    }
+  }
+
+  .bottom-footer {
+    color: white;
+    text-align: center;
+    height: 10%;
+    position: relative;
+    width: 100%;
+    background: #4D5667;
+    padding-top: 2%;
+    margin-bottom: -170px;
+  }
+
+  .bottom-footer-inbox {
+      padding: 25px
+  }
+
+  .profile-button {
+    margin: 30px 30px 0 0;
+    float: right;
+  }
+  .logout-button {
+  margin: 30px 50px 0 0;
+  float: right;
+}
+  .student-header {
+    padding: 25px;
+    height: 100%;
+    width: 40%;
+    display: inline-block;
+  }
+
+  progress[value] {
+    -webkit-appearance: none;
+    appearance: none;
+    height: 10px;
+    width: 300px;
+  }
+
+  .new-chat-button {
+    display: inline-block;
+    margin-left: 65px;
+  }
+
+  .course-header {
+      height: 15%;
+      padding: 50px;
+  }

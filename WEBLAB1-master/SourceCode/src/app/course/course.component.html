@@ -1,0 +1,30 @@
+<div class="container-fluid align-content-center align-items-center">
+  <div class="col-4"></div>
+  <div class="col-4">
+    <mat-card class="example-card">
+  <mat-card-content>
+    <dl>
+      <dt>First Name:</dt>
+      <dd>{{book[0].fName}}</dd>
+      <dt>Last Name:</dt>
+      <dd>{{book[0].lName}}</dd>
+      <dt>Username:</dt>
+      <dd>{{book[0].uName}}</dd>
+      <dt>Phone Number:</dt>
+      <dd>{{book[0].mobilePhone}}</dd>
+      <dt>Course 1:</dt>
+      <dd>{{book[0].class1}}</dd>
+      <dt>Course 2:</dt>
+      <dd>{{book[0].class2}}</dd>
+      <dt>COurse 3:</dt>
+      <dd>{{book[0].class3}}</dd>
+    </dl>
+  </mat-card-content>
+  <mat-card-actions>
+    <a mat-raised-button color="primary" [routerLink]="['/course-edit', book[0].uName]"><mat-icon>edit</mat-icon></a>
+  </mat-card-actions>
+</mat-card></div>
+<div class="col-4">
+</div>
+</div>
+

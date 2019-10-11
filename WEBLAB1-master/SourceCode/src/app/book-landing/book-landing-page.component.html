@@ -1,0 +1,43 @@
+<div class= 'table-container'>
+  <table class= 'table-wrapper'>
+    <tbody>
+      <tr class= 'table-top-row'>
+        <td class= 'left-container top-left-content'>
+          StudentsWorld <i class="fa fa-android fa-2x" aria-hidden="true"> </i>
+        </td>
+        <td class= 'right-container top-right-content'>
+            <h3 class= 'student-header'>Student Activity</h3>
+            <progress value="50" max="100"></progress>
+            <button (click)="ViewProfile()" class="profile-button" type="button">View Profile</button>
+            <button (click)="Logout()" class="logout-button" type="button">Logout</button>
+        </td>
+      </tr>
+      <tr class= 'table-bottom-row'>
+        <td class= 'left-container bottom-left-content'>
+            <div class='sidebar'>
+                <span>MAIN STUDENTS</span>
+                <a href ="https://umkcbookstore.com/" target="_blank">Discover books</a>
+                <a> <i class="fa fa-sticky-note fa-1x" aria-hidden="true"></i> Courses Enrolled</a>
+                <a href ="https://www.umkc.edu/calendar/" target="_blank"><i class="fa fa-comments fa-1x" aria-hidden="true"></i>Calendar</a>
+            </div>
+            <div class='sidebar'>
+                <span>FRIENDS</span>
+                <a href ="https://github.com/htata31/" target="_blank">Harish Tata<i class="fa fa-comments fa-1x" aria-hidden="true"></i></a>
+                <a href ="https://github.com/pallavidesai/" target="_blank">Pallavi Desai<i class="fa fa-comments fa-1x" aria-hidden="true"></i></a>
+                <a href ="https://github.com/neerajpadarthi//" target="_blank">Neeraj Padarthi<i class="fa fa-comments fa-1x" aria-hidden="true"></i></a>
+                <span class= 'new-chat-button'><i class="fa fa-plus-square fa-1x" aria-hidden="true"></i></span>
+            </div>
+            <div class= 'bottom-footer'>
+                Saran Akkiraju <i class="fa fa-inbox  fa-1x bottom-footer-inbox" aria-hidden="true"></i> <i class="fa fa-cog fa-1x" aria-hidden="true"></i>
+            </div>
+        </td>
+        <td class= 'right-container bottom-right-content'>
+          <div class='course-header'>
+            COURSES Enrolled
+          </div>
+          <app-book-landing-content></app-book-landing-content>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

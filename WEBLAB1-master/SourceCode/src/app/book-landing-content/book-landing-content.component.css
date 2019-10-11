@@ -1,0 +1,26 @@
+.card-style {
+    margin: 0 100px 100px 100px;
+    width: 40rem;
+    background: #4e73df;
+    display: inline-block;
+}
+
+.card-holder {
+    width: 100%;
+}
+
+.card-text {
+    height: 55px;
+}
+
+.card-body {
+    padding: 0 !important;
+}
+
+.card-title {
+    padding: 50px;
+    color: #ffffff;
+}
+.card-text {
+    padding: 15px;
+}
